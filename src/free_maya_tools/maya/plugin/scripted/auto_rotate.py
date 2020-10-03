@@ -176,8 +176,8 @@ def main():
     import sys
     
     
-    # path = 'D:/Pipeline/ehsanm/dev/git_repo/iRig/src/iRig/iRig_maya/plugin/scripted'
-    path = 'D:/all_works/redtorch_tools/src/rt_tools/maya/plugin/scripted'
+    # path = 'D:/....../maya/plugin/scripted'
+    path = 'D:/....../maya/plugin/scripted'
     
     while path in sys.path:
         sys.path.remove(path)
